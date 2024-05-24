@@ -1,0 +1,58 @@
+
+
+
+.bgprofile{
+ 
+   border-radius: 50%;
+   position: absolute;
+  top:40%;
+    
+
+}
+.section{
+    display: grid;
+    place-items: center;
+   
+    
+    
+}
+.name{
+    font-size: 2rem;
+}
+
+ul>p{
+    font-size: 1.2rem;
+    padding: 30px;
+    color: black;
+}
+
+.bgpro{
+
+    width: 100%;
+    height: 30em;
+    border-radius: 20px;
+    position: relative;
+
+}
+.bg{
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30%;
+
+
+}
+.gallery img{
+    width:28%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 10px 10px black;
+}  
+
+/* profile data */
