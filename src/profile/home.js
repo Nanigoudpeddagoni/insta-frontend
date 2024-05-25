@@ -21,13 +21,15 @@ function Home() {
   const [showIndex, setShowIndex] = useState(null);
   const token = localStorage.getItem("jwt");
   const id = localStorage.getItem("id");
+  const detailes= localStorage.getItem("user")
+  
   const navigate = useNavigate();
   useEffect(() => {
 
     if (!token) {
       navigate("/");
     }
-
+   alert(detailes+" hi ra ");
     const fetchData = async () => {
       try {
         console.log(url)
