@@ -68,7 +68,7 @@ function SignUp() {
     const postdata = async ()=>{
 
      
-        await axios.post(`${url}/auth/signUp`, {
+        await axios.post(`https://insta-backend-1-2u4q.onrender.com/auth/signUp`, {
             email,
             phone,
             name,
